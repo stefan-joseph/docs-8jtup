@@ -1,0 +1,98 @@
+{
+  "title": "Banana",
+  "logo": "/assets/logo.svg",
+  "home": "welcome",
+  "navbar": {
+    "blur": true,
+    "primary": {
+      "text": "Sign up",
+      "href": "https://google.com"
+    },
+    "secondary": {
+      "text": "Get Started",
+      "href": "/getting-started/quickstart",
+      "icon": "arrow-big-right"
+    },
+    "links": [
+      {
+        "text": "Changlelog",
+        "href": "https://google.com",
+        "icon": "circle-user-round"
+      },
+      {
+        "text": "Meet the team",
+        "href": "https://google.com",
+        "icon": "users-round"
+      },
+      {
+        "text": "Meet the team",
+        "href": "https://google.com",
+        "icon": "users-round"
+      }
+    ]
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "icon": "play",
+        "pages": [
+          {
+            "page": "quickstart",
+            "icon": "fast-forward",
+            "tag": "Try it"
+          },
+          {
+            "group": "Editing",
+            "expanded": false,
+            "tag": "New",
+            "icon": "pencil",
+            "pages": [
+              "installation",
+              {
+                "page": "editor",
+                "icon": "pencil-line",
+                "tag": "Try it"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Writing content",
+        "pages": [
+          {
+            "page": "writing-content/text",
+            "icon": "type"
+          },
+          {
+            "page": "writing-content/images",
+            "icon": "image"
+          },
+          {
+            "page": "writing-content/code",
+            "icon": "code"
+          },
+          {
+            "group": "Components",
+            "icon": "component",
+            "pages": [
+              "writing-content/components/accordian",
+              "writing-content/components/callout",
+              "writing-content/components/steps",
+              "writing-content/components/tabs"
+            ]
+          },
+          {
+            "page": "writing-content/lists",
+            "icon": "list"
+          },
+          {
+            "page": "writing-content/tables",
+            "icon": "table"
+          }
+        ]
+      }
+    ]
+  }
+}
